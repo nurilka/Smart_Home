@@ -1,0 +1,9 @@
+ambient_temp.o: ambient_temp.cpp ambient_temp.h ../IAgent_t.h \
+  ../IPublisher_t.h ../ISubscriber_t.h ../IData_t.h ../Location_t.h \
+  ../Event_t.h ../AgentData_t.h
+InputDataContainer.o: ../InputDataContainer.cpp ../InputDataContainer.h \
+  ../Location_t.h ../IData_t.h
+IAgent_t.o: ../IAgent_t.cpp ../IAgent_t.h ../IPublisher_t.h \
+  ../ISubscriber_t.h ../IData_t.h ../Event_t.h ../Location_t.h \
+  ../InputDataContainer.h
+Event_t.o: ../Event_t.cpp ../Event_t.h ../Location_t.h ../IData_t.h
